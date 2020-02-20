@@ -6,7 +6,6 @@ class Artist
   extend Memorable::InstanceMethods
   extend Findable
 
-
   attr_accessor :name
   attr_reader :songs
 
